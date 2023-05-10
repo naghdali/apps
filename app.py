@@ -35,7 +35,7 @@ st.subheader('User Input Parametres')
 st.write(df)
 st.subheader('Name Of Targets')
 
-dataset=pd.read_csv(r'D:\ml_mk\project\Project 2 - Churn modelling\churn.csv')
+dataset=pd.read_csv('churn.csv')
 labels_name=dataset['Exited'].unique()
 label_fram=pd.DataFrame(labels_name,index=['Cat1','Cat2'],columns=['Names'])
 st.write(label_fram)
