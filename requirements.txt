@@ -50,7 +50,7 @@ Jinja2
 joblib==1.2.0
 jsonschema 
 jupyter-dash==0.4.2
-jupyter-server @
+jupyter-server 
 jupyter_client 
 jupyter_core 
 jupyterlab-pygments 
